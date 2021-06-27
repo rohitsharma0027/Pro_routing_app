@@ -15,7 +15,7 @@ const NewCommentForm = (props) => {
     {
        onAddedComment();
     }
-  },[status,onAddedComment])
+  },[status,onAddedComment,error])
 
   const submitFormHandler = (event) => {
     event.preventDefault();
